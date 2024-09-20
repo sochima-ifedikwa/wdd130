@@ -54,11 +54,6 @@ main img {
 
 aside {
     width: 20rem;
-    margin: 1rem;
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    padding: 1rem;
-    background-color: #eee;
-    color: #000;
     text-align: center;
     position: relative;
 }
