@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Primary Color: #228B22
+   Secondary Color: # F5F5DC
+   Accent1: # C8AD7E
+   Accent2: #FFFFFF
+*/
+
+
+body{
+    font-family: "Open Sans", "Montserrat", sans-serif;
+    font-weight: 400;
+}
