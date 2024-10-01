@@ -1,27 +1,36 @@
+:root {
+    --primary-Color: #228B22;
+    --secondary-color: #F5F5DC;
+    --accent1: #C8AD7E;
+    --Accent2: #FFFFFF;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Primary Color: #228B22
-   Secondary Color: # F5F5DC
-   Accent1: # C8AD7E
-   Accent2: #FFFFFF
-*/
-
-
-body{
+body {
     font-family: "Open Sans", sans-serif;
     /* font-weight: 400; */
-    background-color: #F5F5DC;
+    background-color: var(--secondary-color);
 }
 
 header {
-    background-color: #f013131c;
+    background-color: var(--primary-Color);
     color: #FFFFFF;
+    padding: 1rem 0;
 }
 
 p {
+    padding: 0;
+    margin: 1rem
+}
 
+h1 {
+    padding: 0.5rem;
+    margin: 2;
+    color: var(--accent1)
+    
 }
