@@ -25,18 +25,15 @@ header {
     color: var(--Accent2);
     padding: 1rem 0;
 }
-nav a{
-    float: both;
-}
+
 p {
-    /* padding: 0.5rem; */
+    padding: 0.5rem;
     /* margin: 1rem; */
 }
 
 h1, h2, h3, h4,  h5, h6 {
-    /* padding: 0.5rem; */
+    padding: 0.5rem;
     /* margin: 0.5rem; */
     /* border: 0.2px solid rgba(200,  173, 126, 0.5); */
     color: var(--accent1)
-
 }
