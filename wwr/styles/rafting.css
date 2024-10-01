@@ -12,6 +12,16 @@
 
 
 body{
-    font-family: "Open Sans", "Montserrat", sans-serif;
-    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+    /* font-weight: 400; */
+    background-color: #F5F5DC;
+}
+
+header {
+    background-color: #f013131c;
+    color: #FFFFFF;
+}
+
+p {
+
 }
