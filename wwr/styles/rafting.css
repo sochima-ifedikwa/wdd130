@@ -1,8 +1,10 @@
 :root {
-    --primary-Color: #228B22;
-    --secondary-color: #F5F5DC;
-    --accent1: #C8AD7E;
-    --Accent2: #FFFFFF;
+    --primary-Color: #228b22;
+    --secondary-color: #f5f5dc;
+    --accent1: #c8ad7e;
+    --Accent2: #ffffff;
+    --heading-font: 'Montserrat', sans-serif;
+    --text-font: "Open Sans", sans-serif;
 }
 
 * {
@@ -12,14 +14,14 @@
 }
 
 body {
-    font-family: "Open Sans", sans-serif;
+    font-family: var(--text-font);
     /* font-weight: 400; */
     background-color: var(--secondary-color);
 }
 
 header {
     background-color: var(--primary-Color);
-    color: #FFFFFF;
+    color: var(--Accent2);
     padding: 1rem 0;
 }
 
@@ -30,7 +32,8 @@ p {
 
 h1 {
     padding: 0.5rem;
-    margin: 2;
+    margin: 0.5rem;
+    border: 1px solid rgba(200,  173, 126, 0.5);
     color: var(--accent1)
-    
+
 }
