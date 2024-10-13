@@ -23,10 +23,18 @@ body {
 
 header {
     background-color: var(--primary-Color);
-    padding: 16px;    
+    padding: 16px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}    
+
+header nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
-nav a {
+header nav a {
     text-decoration: none;
     padding: 10px;
     color: var(--Accent2)
@@ -45,13 +53,6 @@ p {
     padding: 10px;
 }
 
-
-
-/* header nav a {
-    text-decoration: none;
-    padding: 10px;
-    color: var(--Accent2);
-} */
 
 /* Class Selectors */
 
@@ -75,77 +76,6 @@ p {
     color: var(--Accent2);
 }
 
-.hero article img{
-    float: right;
-    margin:10px
-}
-
-css
-Edit
-Copy code
-:root {
-    --primary-Color: #228b22;
-    --secondary-color: #f5f5dc;
-    --accent1: #c8ad7e;
-    --Accent2: #ffffff;
-    --heading-font: 'Montserrat', sans-serif;
-    --text-font: "Open Sans", sans-serif;
-}
-
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    max-width: 840px;
-    font-family: var(--text-font);
-    font-size: 16px;
-    margin: 0 auto;
-}
-
-header {
-    background-color: var(--primary-Color);
-    padding: 16px;
-}
-
-nav a {
-    text-decoration: none;
-    padding: 10px;
-    color: var(--Accent2);
-}
-
-h1, h2 {
-    font-family: var(--heading-font);
-    background-color: var(--primary-Color);
-    color: var(--Accent2);
-    padding: 10px;
-}
-
-p {
-    font-family: var(--text-font);
-    padding: 10px;
-}
-
-.hero {
-    position: relative;
-    margin: 10px;
-}
-
-.hero img {
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-    display: block;
-}
-
-.hero h1 {
-    position: absolute;
-    top: 5px;
-    right: 260px;
-    color: var(--Accent2);
-}
 
 .hero article {
     position: absolute;
@@ -175,4 +105,6 @@ footer a {
 
 footer img {
     margin: 10px;
+    width: 30px;
+    height: 30px;
 }
