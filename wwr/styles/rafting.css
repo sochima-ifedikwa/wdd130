@@ -227,14 +227,14 @@ button[type="submit"]:hover {
 
 /* .contact-container {
     display: flex;
-    align-items: flex-start; Creates two equal columns
-    gap: 20ox;
+    align-items: flex-start; 
+    gap: 20px;
     padding: 2rem;
     max-width: 1200px;
     margin: 0 auto;
 }
 
-/* Contact Information Section */
+
 .contact-info-section {
     padding: 2rem;
     background-color: #f5f5f5;
@@ -260,7 +260,7 @@ button[type="submit"]:hover {
     border: none;
 }
 
-/* Contact Form Section */
+
 .contact-form-section {
     padding: 2rem;
     background-color: #f5f5f5;
@@ -277,7 +277,13 @@ button[type="submit"]:hover {
     padding: 2rem;
 }
 
-.team-members img {
+.team-figures {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+}
+
+.team-figures img {
     width: 200px;
     height: 150px;
     object-fit: cover;
