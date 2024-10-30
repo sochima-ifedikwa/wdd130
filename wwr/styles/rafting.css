@@ -408,9 +408,9 @@ th {
 }
 
 tr:nth-child(even) {
-    background: #f2f2f2; 
+    background: #f2f2f2; /* Light gray background for even rows */
 }
 
 tr:hover {
-    background: #e7f3fe; 
+    background: #e7f3fe; /* Light blue background on row hover */
 }
